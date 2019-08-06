@@ -75,9 +75,9 @@
 
             request.onload = function () {
                 // Begin accessing JSON data here
-                //var data = JSON.parse(this.response.data)
+                var data = JSON.parse(this.response)
 
-                alert(this.response.data)
+                alert(data.data)
             }
 
 
