@@ -67,13 +67,23 @@
     <script src="assets/js/main.js"></script>
     <script>
         $(document).ready(function () {
-            $.get("https://my.mlh.io/api/v2/users?client_id=d5074f807557a6205caf0107c4c430f734c9e1ff5d190974b63c6b110ab1c1b4&secret=ad6f69125d3b666364b1a4a87635ba10f08c648aa28dbf5a7216225714ba99ed", function (jsonData, status) {
+            // Create a request variable and assign a new XMLHttpRequest object to it.
+            var request = new XMLHttpRequest()
 
-                //let data = JSON.parse(jsonData)
-                alert(jsonData)
+            // Open a new connection, using the GET request on the URL endpoint
+            request.open('GET', 'https://my.mlh.io/api/v2/users?client_id=d5074f807557a6205caf0107c4c430f734c9e1ff5d190974b63c6b110ab1c1b4&secret=ad6f69125d3b666364b1a4a87635ba10f08c648aa28dbf5a7216225714ba99ed', true)
+
+            request.onload = function () {
+                // Begin accessing JSON data here
+                var data = JSON.parse(this.response)
+
+                alert(data)
+            }
 
 
-            });
+            // Send request
+            request.send()
+
             var i = 0;
             while (i < 5) {
                 $(".inner").after("<h1>object</h1>");
