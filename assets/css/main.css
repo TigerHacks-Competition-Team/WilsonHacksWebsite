@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #24501E url("images/ualsyvbe.png");
+		background: #24501E /*url("images/ualsyvbe.png")*/;
 	}
 
 		body.is-preload * {
