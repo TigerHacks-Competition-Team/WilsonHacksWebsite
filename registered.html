@@ -68,18 +68,19 @@
     <script>
         $(document).ready(function () {
             $.get("https://my.mlh.io/api/v2/users?client_id=d5074f807557a6205caf0107c4c430f734c9e1ff5d190974b63c6b110ab1c1b4&secret=ad6f69125d3b666364b1a4a87635ba10f08c648aa28dbf5a7216225714ba99ed", function (data, status) {
-                var list = [];
+
 
 
 
 
             });
+            var list = [];
             var i = 0;
             while (i < 5) {
-                list.push("<h1>object</h1>")
-                i = i + 1
+                list.push("<h1>object</h1>");
+                i = i + 1;
             }
-            $('.inner').after(list);
+            $('.inner').after("<h1>it works</h1>");
 
         });
 
