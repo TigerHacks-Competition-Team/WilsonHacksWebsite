@@ -69,7 +69,7 @@
         $(document).ready(function () {
             $.get("https://my.mlh.io/api/v2/users?client_id=d5074f807557a6205caf0107c4c430f734c9e1ff5d190974b63c6b110ab1c1b4&secret=ad6f69125d3b666364b1a4a87635ba10f08c648aa28dbf5a7216225714ba99ed", function (jsonData, status) {
 
-                let data = JSON.parse(data)
+                let data = JSON.parse(jsonData)
                 alert(data)
 
 
