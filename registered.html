@@ -73,11 +73,19 @@
                 while (i < data.length) {
                     list.push("<h1>object</h1>")
                 }
-                $("div.inner").html(function (n) {
+                $(".inner").html(function (n) {
                     return list;
                 })
 
             });
+            var list = [];
+            var i = 0;
+            while (i < data.length) {
+                list.push("<h1>object</h1>")
+            }
+            $(".inner").html(function (n) {
+                return list;
+            })
         });
     </script>
 
