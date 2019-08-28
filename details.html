@@ -9,6 +9,7 @@
 </head>
 
 <script>
+    function AdjustIframeHeightOnLoad() { document.getElementById("form-iframe").style.height = document.getElementById("form-iframe").contentWindow.document.body.scrollHeight + "px"; }
     function hackData() {
         var element = document.getElementById("dynamic")
         element.src = "/hackathon.html"
@@ -70,7 +71,9 @@
 
                                     <!-- Content -->
                                     <div class="iframe-container">
-                                        <iframe src="index.html" id="dynamic" frameborder="0"></iframe>
+                                        <iframe src="index.html"
+                                            style="margin:0; width:100%; height:150px; border:none; overflow:hidden;"
+                                            scrolling="no" onload="AdjustIframeHeightOnLoad()"></iframe>
                                     </div>
 
                                 </div>
