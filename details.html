@@ -10,13 +10,13 @@
 
 <script>
     function viewLoad() {
-        $("#dynamic").load("index.html")
+        $("#dynamic").load("winter.html")
     }
 
-    function hackData() {
+    function load(path) {
         //var element = document.getElementById("dynamic")
         //element.src = "/hackathon.html"
-        $("#dynamic").load("hackathon.html");
+        $("#dynamic").load(path);
     }
 </script>
 
@@ -67,7 +67,9 @@
                                                 <h2>Hackathons</h2>
                                             </header>
                                             <ul class="style2">
-                                                <li><button onClick="hackData()">Fall Hackathon</button></li>
+                                                <li><button onClick="load('details/hackathons/winter.html')">Winter
+                                                        Hackathon</button></li>
+                                                <li><button onClick="load('details/team.html')">Team</button></li>
                                             </ul>
                                         </section>
                                     </div>
