@@ -10,7 +10,8 @@
 
 <script>
     function AdjustIframeHeightOnLoad() {
-        document.getElementById("form-iframe").style.height = document.getElementById("form-iframe").contentWindow.document.body.scrollHeight + "px";
+        var height = document.getElementById("form-iframe").contentWindow.document.body.scrollHeight + "px";
+        document.getElementById("dynamic").style.height = height
     }
     function hackData() {
         var element = document.getElementById("dynamic")
