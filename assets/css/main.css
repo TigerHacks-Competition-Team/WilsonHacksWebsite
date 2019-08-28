@@ -7,20 +7,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-.iframe-container {
-	/*overflow: hidden;
-	padding-top: 56.25%;*/
-	position: relative;
-  }
+
    
-  /*.iframe-container iframe {
-	 border: 0;
+  #dynamic {
 	 height: 100%;
-	 left: 0;
-	 position: absolute;
-	 top: 0;
 	 width: 100%;
-  }*/
+  }
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
