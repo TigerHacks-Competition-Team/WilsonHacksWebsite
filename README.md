@@ -3,7 +3,7 @@
 ## Nav Bar
 The Nav Bar consists of a title on the left and an inline list of pages on the right. When you add a new page please update the Nav Bar page list in every file.
 
-The class 'current_page_item' specifies that it is the current page and should be set for every page and no class should be set in for the other pages.
+The class **current_page_item** specifies that it is the current page and should be set for every page and no class should be set in for the other pages.
 
 ## Home Page
 ### index.html
@@ -29,4 +29,4 @@ The details.html file controls the details page.
 It consists of a Nav Bar at the top, a sidebar for the different details pages, and a center section to display the different details pages.
 
 #### Sidebar
-The Sidebar consists of a list of buttons that run the 'load()' JavaScript function defined in the 'script' tags at the top. Each button passes a string called path into the load function which references the html page in the **details** folder.
+The Sidebar consists of a list of buttons that run the **load()** JavaScript function defined in the **script** tags at the top. Each button passes a path in the form of a string into the load function which references the html page in the **details** folder. An example is a button that looks like <button onPress="load('/details/hackathons/winter.html')" />
