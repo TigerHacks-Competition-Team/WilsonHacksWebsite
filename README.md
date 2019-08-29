@@ -5,7 +5,18 @@ The Nav Bar consists of a title on the left and an inline list of pages on the r
 
 The class 'current_page_item' specifies that it is the current page and should be set for every page and no class should be set in for the other pages.
 
-### home page
+### Home Page
 #### index.html
 
-The index.html file controls the home page
+The index.html file controls the home page.
+
+The differnet wrappers indicate differently formated content.
+
+#### wrapper style1
+List of images.
+
+#### wrapper style2
+Two side by side headings with captions and buttons.
+
+#### wrapper style3
+Left large image or other contnent combined with a spotlite section on the right which consists of an images with a title and caption.
