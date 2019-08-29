@@ -29,5 +29,4 @@ The details.html file controls the details page.
 It consists of a Nav Bar at the top, a sidebar for the different details pages, and a center section to display the different details pages.
 
 #### Sidebar
-The Sidebar consists of a list of buttons that run the **load()** JavaScript function defined in the **script** tags at the top. Each button passes a path in the form of a string into the load function which references the html page in the **details** folder. An example is a button that looks like 
-#####<button onPress="load('/details/hackathons/winter.html')" />
+The Sidebar consists of a list of buttons that run the **load()** JavaScript function defined in the **script** tags at the top. Each button passes a path in the form of a string into the load function which references the html page in the **details** folder. An example is an on press field that looks like **onPress="load('/details/hackathons/winter.html')"**
