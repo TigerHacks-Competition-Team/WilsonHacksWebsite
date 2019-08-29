@@ -6,4 +6,9 @@
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
+    align-content: center;
+}
+
+#side-list {
+    padding-bottom: 20px;
 }
