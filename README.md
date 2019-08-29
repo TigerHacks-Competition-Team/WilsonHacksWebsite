@@ -19,4 +19,11 @@ List of images.
 Two side by side headings with captions and buttons.
 
 #### wrapper style3
-Left large image or other contnent combined with a spotlite section on the right which consists of an images with a title and caption.
+Left large image or other contnent combined with a spotlight. section on the right which consists of an images with a title and caption.
+
+## Details
+### details.html
+
+The details.html file controls the details page.
+
+It consists of a Nav Bar at the top, a sidebar for the different details pages, and a center section to display the different details pages.
