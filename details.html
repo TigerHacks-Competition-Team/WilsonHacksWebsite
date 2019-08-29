@@ -9,13 +9,21 @@
 </head>
 
 <script>
+
+    //set default page to path to page in the details folder
+    let defaultPage = "details/hackathons/winter.html"
+
+    //on view load, load the default page
     function viewLoad() {
-        $("#dynamic").load("winter.html")
+
+        //jquery script to load a page
+        $("#dynamic").load(defaultPage)
     }
 
+    //load function takes a path (String) which is passed to the jquery function
     function load(path) {
-        //var element = document.getElementById("dynamic")
-        //element.src = "/hackathon.html"
+
+        //jquery function that loads html into the 'div' with id 'dynamic'
         $("#dynamic").load(path);
     }
 </script>
@@ -23,67 +31,74 @@
 <body class="left-sidebar is-preload" onload="viewLoad()">
     <div id="page-wrapper">
 
-        <!-- Header Wrapper -->
-        <div id="header-wrapper">
-            <div class="container">
+        <div id="margin-content">
+            <!-- Header Wrapper, For Nav Bar -->
+            <div id="header-wrapper">
+                <div class="container">
 
-                <!-- Header -->
-                <header id="header">
-                    <div class="inner">
+                    <!-- Header, For Nav Bar -->
+                    <header id="header">
+                        <div class="inner">
 
-                        <!-- Logo -->
-                        <h1><a href="index.html" id="logo">Wilson Hackathon</a></h1>
+                            <!-- Logo, Left title in Nav Bar -->
+                            <h1><a href="index.html" id="logo">Wilson Hackathon</a></h1>
 
-                        <!-- Nav -->
-                        <nav id="nav">
-                            <ul>
-                                <li><a href="index.html" id="logo">Home</a></li>
-                                <li><a
-                                        href="https://my.mlh.io/oauth/authorize?client_id=d5074f807557a6205caf0107c4c430f734c9e1ff5d190974b63c6b110ab1c1b4&redirect_uri=https://wilsonhacks.org/oauth/callback.html&response_type=token">Register</a>
-                                </li>
-                                <li class="current_page_item"><a href="#">Details</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </header>
+                            <!-- Nav Bar -->
+                            <nav id="nav">
+                                <ul>
+                                    <!-- list items are displayed inline as a nav bar, when a page is added please add a nav bar link -->
+                                    <li><a href="index.html" id="logo">Home</a></li>
+                                    <li><a
+                                            href="https://my.mlh.io/oauth/authorize?client_id=d5074f807557a6205caf0107c4c430f734c9e1ff5d190974b63c6b110ab1c1b4&redirect_uri=https://wilsonhacks.org/oauth/callback.html&response_type=token">Register</a>
+                                    </li>
+                                    <li class="current_page_item"><a href="#">Details</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+                </div>
             </div>
-        </div>
 
-        <!-- Main Wrapper -->
-        <div id="main-wrapper">
-            <div id="details-main-wrapper">
+            <!-- Main Wrapper, For Side Bar -->
+            <div id="main-wrapper">
+                <div id="details-main-wrapper">
 
-                <div class="wrapper style2">
-                    <div class="inner">
-                        <div classs="container">
-                            <div class="row">
-                                <div class="col-4 col-12-medium">
-                                    <div id="sidebar">
+                    <div class="wrapper style2">
+                        <div class="inner">
+                            <div classs="container">
+                                <div class="row">
+                                    <div class="col-4 col-12-medium">
+                                        <div id="sidebar">
 
-                                        <!-- Sidebar -->
+                                            <!-- Sidebar -->
 
-                                        <section>
-                                            <header class="major">
-                                                <h2>Hackathons</h2>
-                                            </header>
-                                            <ul class="style2">
-                                                <li><button onClick="load('details/hackathons/winter.html')">Winter
-                                                        Hackathon</button></li>
-                                                <li><button onClick="load('details/team.html')">Team</button></li>
-                                            </ul>
-                                        </section>
+                                            <section>
+                                                <!-- Sidebar Section Header -->
+                                                <header class="major">
+                                                    <h2>Hackathons</h2>
+                                                </header>
+                                                <ul class="style2">
+                                                    <!-- onclick runs the load function at the top of the page, please pass an 
+                                                     html page path to it as a string
+                                                -->
+                                                    <li><button onClick="load('details/hackathons/winter.html')">Winter
+                                                            Hackathon</button></li>
+                                                    <li><button onClick="load('details/team.html')">Team</button></li>
+                                                </ul>
+                                            </section>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-8 col-12-medium imp-medium">
-                                    <div id="content">
+                                    <div class="col-8 col-12-medium imp-medium">
+                                        <div id="content">
 
-                                        <!-- Content -->
-                                        <article>
-                                            <div id="dynamic">
+                                            <!-- Content That is Changed by JS Functions for displaying the different pages in the sidebar -->
+                                            <article>
+                                                <div id="dynamic">
 
-                                            </div>
-                                        </article>
+                                                </div>
+                                            </article>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
