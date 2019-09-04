@@ -19,3 +19,8 @@
     width: 100+'%';
     text-decoration: none;
 }
+
+.side-button:hover {
+    color: #ffffff;
+    background-color: #11260E;
+}
