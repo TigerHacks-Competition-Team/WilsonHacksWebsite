@@ -1723,7 +1723,7 @@ input, select, textarea {
 		}
 
 			#nav > ul > li > a, #nav > ul > li > span {
-				color: #fff;
+				color: #30a644;
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 800;
@@ -1937,7 +1937,7 @@ input, select, textarea {
 			top: 50%;
 			margin-top: -0.65em;
 			font-size: 1.5em;
-			color: #fff;
+			color: #30a644;
 		}
 
 /* Footer */
