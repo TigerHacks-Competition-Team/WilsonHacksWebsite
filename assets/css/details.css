@@ -16,8 +16,9 @@
 
 .side-button {
     color: #11260E;
-    width: 100vw;
+    width: 100%;
     text-decoration: none;
+    position: absolute;
 }
 
 .side-button:hover {
