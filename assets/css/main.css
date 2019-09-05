@@ -214,15 +214,9 @@ input, select, textarea {
 /* Container */
 
 	.container {
-<<<<<<< HEAD
-		margin: auto;
-		max-width: calc(100%);
-		width: 1200px;
-=======
-		/*margin: 0 auto;
+		margin: 0 auto;
 		max-width: calc(100% - 100px);
-		width: 1200px;*/
->>>>>>> 1f2017c4276e55cc3d0278c4e5c2fb2c9aecb62d
+		width: 1200px;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -1872,16 +1866,10 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-<<<<<<< HEAD
-		/*background: url("images/ualsyvbe.png"), url("../../images/header.jpg");*/
-		background-position: top left, center center;
-		background-size: auto, cover;
-=======
-		background: url("../../images/bg01.png"), url("../../images/header.jpg");
+		background: url("../../images/bg01.png");
 		background-position: center;
 		background-size: 100%, 100%;
 		background-repeat: no-repeat;
->>>>>>> 1f2017c4276e55cc3d0278c4e5c2fb2c9aecb62d
 		padding: 0;
 	}
 
