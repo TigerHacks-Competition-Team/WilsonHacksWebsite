@@ -1845,6 +1845,10 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
+		#banner img {
+			width: 100%;
+			height: 100%;
+		}
 
 /* Sidebar */
 
