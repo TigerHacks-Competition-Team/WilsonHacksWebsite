@@ -214,9 +214,9 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		/*margin: 0 auto;
 		max-width: calc(100% - 100px);
-		width: 1200px;
+		width: 1200px;*/
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -1858,7 +1858,7 @@ input, select, textarea {
 		background: url("../../images/bg01.png"), url("../../images/header.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
-		padding: 3em 0;
+		padding: 0;
 	}
 
 	#main-wrapper {
@@ -1890,17 +1890,17 @@ input, select, textarea {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
-			background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
+			/*background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");*/
 			background-repeat: no-repeat, no-repeat, repeat;
-			background-size: 100% 15em, 100% 15em, auto auto;
-			background-position: top center, bottom center, top left;
+			background-size: 100%, 100%;
+			background-position: center;
 		}
 
 		.wrapper.style3 {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
-			background-image: url("images/bg03.png"), url("images/bg02.png");
+			/*background-image: url("images/bg03.png"), url("images/bg02.png");*/
 			background-repeat: no-repeat, repeat;
 			background-size: 100% 15em, auto auto;
 			background-position: top center, top left;
@@ -1910,9 +1910,9 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		/*border-radius: 10px;*/
+		/*border-radius: 10px;
 		background: rgba(255, 255, 255, 0.1);
-		/*padding: 0.75em;*/
+		padding: 0.75em;*/
 		margin-bottom: 0;
 	}
 
