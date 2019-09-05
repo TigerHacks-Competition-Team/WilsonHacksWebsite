@@ -214,8 +214,8 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
-		max-width: calc(100% - 100px);
+		margin: auto;
+		max-width: calc(100%);
 		width: 1200px;
 	}
 
@@ -1859,7 +1859,7 @@ input, select, textarea {
 		/*background: url("images/ualsyvbe.png"), url("../../images/header.jpg");*/
 		background-position: top left, center center;
 		background-size: auto, cover;
-		padding: 3em 0;
+		padding: 0;
 	}
 
 	#main-wrapper {
@@ -1891,7 +1891,6 @@ input, select, textarea {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
-			background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
 			background-repeat: no-repeat, no-repeat, repeat;
 			background-size: 100% 15em, 100% 15em, auto auto;
 			background-position: top center, bottom center, top left;
@@ -1901,7 +1900,6 @@ input, select, textarea {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
-			background-image: url("images/bg03.png"), url("images/bg02.png");
 			background-repeat: no-repeat, repeat;
 			background-size: 100% 15em, auto auto;
 			background-position: top center, top left;
