@@ -1730,7 +1730,6 @@ input, select, textarea {
 				font-size: 0.95em;
 				letter-spacing: 0.075em;
 				padding: 0.5em 0.8em 0.5em 0.8em;
-				border-radius: 6px;
 				outline: 0;
 			}
 
@@ -1911,7 +1910,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		border-radius: 10px;
+		/*border-radius: 10px;*/
 		background: rgba(255, 255, 255, 0.1);
 		/*padding: 0.75em;*/
 		margin-bottom: 0;
