@@ -1870,6 +1870,7 @@ input, select, textarea {
 			transform: translate(-50%, -50%);
 			border: none;
 			cursor: pointer;
+			color: #089713;
 		}
 		#register-a:hover {
 			opacity: 1;
