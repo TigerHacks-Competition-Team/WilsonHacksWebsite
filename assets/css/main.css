@@ -1856,7 +1856,7 @@ input, select, textarea {
 			max-width: 100%;
 		}
 		#register-a {
-			background-color: #ffff;
+			background-color: #089713;
 			opacity: 0.7;
 			text-decoration: none;
 			padding-left: 30px;
@@ -1870,7 +1870,7 @@ input, select, textarea {
 			transform: translate(-50%, -50%);
 			border: none;
 			cursor: pointer;
-			color: #089713;
+			color: #fff;
 		}
 		#register-a:hover {
 			opacity: 1;
