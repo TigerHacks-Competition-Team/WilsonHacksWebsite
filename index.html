@@ -17,11 +17,14 @@
 </head>
 
 <script>
-	var elementClass = "current_page_item"
+	function onload(){
+		var elementClass = "current_page_item"
 	document.getElementById("home").className = elementClass
+	}
+	
 </script>
 
-<body class="homepage is-preload">
+<body class="homepage is-preload" onload="onload()">
 	<div id="page-wrapper">
 
 		<!-- Header -->
