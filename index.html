@@ -16,6 +16,11 @@
 
 </head>
 
+<script>
+	var elementClass = "current_page_item"
+	document.getElementById("home").className = elementClass
+</script>
+
 <body class="homepage is-preload">
 	<div id="page-wrapper">
 
@@ -33,7 +38,8 @@
 							<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li class="current_page_item"><a href="index.html">Home</a></li>
+									<li id="home" class=""><a href="index.html">Home</a></li>
+									
 									<li class="registration-link"><a
 											href="https://my.mlh.io/oauth/authorize?client_id=d5074f807557a6205caf0107c4c430f734c9e1ff5d190974b63c6b110ab1c1b4&redirect_uri=https://wilsonhacks.org/oauth/callback.html&response_type=token">Register</a>
 									</li>
@@ -60,38 +66,38 @@
 			<div id="container">
 			<div class="wrapper style1">
 				<div class="inner">
+					<div id="aboutUs">
+						<!-- Feature 1 -->
+						<section class="container box feature1">
+							<div class="row">
+								<div class="col-12">
+									<header class="first major">
+										<h2>About Us</h2>
+									</header>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section>
+										<img class="image featured" src="images/pic01.png" alt="" />
+									</section>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section>
+										<img class="image featured" src="images/pic02.png" alt="" />
 
-					<!-- Feature 1 -->
-					<section class="container box feature1">
-						<div class="row">
-							<div class="col-12">
-								<header class="first major">
-									<h2>Past Events</h2>
-								</header>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section>
-									<img class="image featured" src="images/pic01.png" alt="" />
-								</section>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section>
-									<img class="image featured" src="images/pic02.png" alt="" />
+									</section>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section>
+										<img class="image featured" src="images/pic03.png" alt="" />
 
-								</section>
+									</section>
+								</div>
+								<div class="col-12">
+									<p>Images from the 2019 spring Wackathon.</p>
+								</div>
 							</div>
-							<div class="col-4 col-12-medium">
-								<section>
-									<img class="image featured" src="images/pic03.png" alt="" />
-
-								</section>
-							</div>
-							<div class="col-12">
-								<p>Images from the 2019 spring Wackathon.</p>
-							</div>
-						</div>
-					</section>
-
+						</section>
+					</div>
 				</div>
 			</div>
 
