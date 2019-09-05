@@ -1859,8 +1859,8 @@ input, select, textarea {
 
 	#header-wrapper {
 		background: url("../../images/bg01.png"), url("../../images/header.jpg");
-		background-position: top left, center center;
-		background-size: auto, cover;
+		background-position: center;
+		background-size: cover;
 		padding: 0;
 	}
 
