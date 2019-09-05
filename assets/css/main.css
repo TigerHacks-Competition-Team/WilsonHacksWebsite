@@ -1794,6 +1794,7 @@ input, select, textarea {
 		margin: 0 auto;
 		overflow: hidden;
 		padding: 9em 0 6em 0;
+		position: relative;
 	}
 
 		#banner h2 {
@@ -1863,6 +1864,12 @@ input, select, textarea {
 			padding-top: 25px;
 			padding-bottom: 25px;
 			font-size: 15px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			border: none;
+			cursor: pointer;
 		}
 		#register-a:hover {
 			opacity: 1;
