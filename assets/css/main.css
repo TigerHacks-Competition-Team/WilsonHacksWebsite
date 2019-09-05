@@ -214,9 +214,15 @@ input, select, textarea {
 /* Container */
 
 	.container {
+<<<<<<< HEAD
 		margin: auto;
 		max-width: calc(100%);
 		width: 1200px;
+=======
+		/*margin: 0 auto;
+		max-width: calc(100% - 100px);
+		width: 1200px;*/
+>>>>>>> 1f2017c4276e55cc3d0278c4e5c2fb2c9aecb62d
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -1730,7 +1736,6 @@ input, select, textarea {
 				font-size: 0.95em;
 				letter-spacing: 0.075em;
 				padding: 0.5em 0.8em 0.5em 0.8em;
-				border-radius: 6px;
 				outline: 0;
 			}
 
@@ -1846,6 +1851,17 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
+		#banner-img {
+			margin-right: 20px;
+			max-height: 50vh;
+			/* max-height: 6em; */
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+		}
+
+		
 
 /* Sidebar */
 
@@ -1856,9 +1872,16 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
+<<<<<<< HEAD
 		/*background: url("images/ualsyvbe.png"), url("../../images/header.jpg");*/
 		background-position: top left, center center;
 		background-size: auto, cover;
+=======
+		background: url("../../images/bg01.png"), url("../../images/header.jpg");
+		background-position: center;
+		background-size: 100%, 100%;
+		background-repeat: no-repeat;
+>>>>>>> 1f2017c4276e55cc3d0278c4e5c2fb2c9aecb62d
 		padding: 0;
 	}
 
@@ -1891,15 +1914,23 @@ input, select, textarea {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
+<<<<<<< HEAD
+=======
+			/*background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");*/
+>>>>>>> 1f2017c4276e55cc3d0278c4e5c2fb2c9aecb62d
 			background-repeat: no-repeat, no-repeat, repeat;
-			background-size: 100% 15em, 100% 15em, auto auto;
-			background-position: top center, bottom center, top left;
+			background-size: 100%, 100%;
+			background-position: center;
 		}
 
 		.wrapper.style3 {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
+<<<<<<< HEAD
+=======
+			/*background-image: url("images/bg03.png"), url("images/bg02.png");*/
+>>>>>>> 1f2017c4276e55cc3d0278c4e5c2fb2c9aecb62d
 			background-repeat: no-repeat, repeat;
 			background-size: 100% 15em, auto auto;
 			background-position: top center, top left;
@@ -1909,9 +1940,9 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		border-radius: 10px;
+		/*border-radius: 10px;
 		background: rgba(255, 255, 255, 0.1);
-		/*padding: 0.75em;*/
+		padding: 0.75em;*/
 		margin-bottom: 0;
 	}
 
@@ -1922,8 +1953,9 @@ input, select, textarea {
 			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/ualsyvbe.png");*/
 			position: relative;
 			height: 5.5em;
-			/*background-color: #24501E;
-			background-color: rgba(59, 62, 69, 0.9);
+			background-color: #fff;
+			opacity: 0.7;
+			/*background-color: rgba(59, 62, 69, 0.9);
 			border-radius: 8px;
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
 			text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);*/
