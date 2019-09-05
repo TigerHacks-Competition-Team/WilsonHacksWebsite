@@ -1863,16 +1863,14 @@ input, select, textarea {
 			padding-top: 25px;
 			padding-bottom: 25px;
 			font-size: 15px;
-			margin-bottom: 10px;
 		}
 		#register-a:hover {
 			opacity: 1;
-			padding-left: 35px;
-			padding-right: 35px;
-			padding-top: 30px;
-			padding-bottom: 30px;
+			padding-left: 32px;
+			padding-right: 32px;
+			padding-top: 27px;
+			padding-bottom: 27px;
 			font-size: 17px;
-			margin-bottom: 0px;
 		}
 
 		
