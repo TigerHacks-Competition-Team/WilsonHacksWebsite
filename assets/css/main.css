@@ -1902,10 +1902,7 @@ input, select, textarea {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
-<<<<<<< HEAD
-=======
 			/*background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");*/
->>>>>>> 1f2017c4276e55cc3d0278c4e5c2fb2c9aecb62d
 			background-repeat: no-repeat, no-repeat, repeat;
 			background-size: 100%, 100%;
 			background-position: center;
@@ -1915,10 +1912,7 @@ input, select, textarea {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
-<<<<<<< HEAD
-=======
 			/*background-image: url("images/bg03.png"), url("images/bg02.png");*/
->>>>>>> 1f2017c4276e55cc3d0278c4e5c2fb2c9aecb62d
 			background-repeat: no-repeat, repeat;
 			background-size: 100% 15em, auto auto;
 			background-position: top center, top left;
