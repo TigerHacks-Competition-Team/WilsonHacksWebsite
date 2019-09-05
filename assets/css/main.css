@@ -1861,6 +1861,7 @@ input, select, textarea {
 		background: url("../../images/bg01.png"), url("../../images/header.jpg");
 		background-position: center;
 		background-size: 100%, 100%;
+		background-repeat: no-repeat;
 		padding: 0;
 	}
 
