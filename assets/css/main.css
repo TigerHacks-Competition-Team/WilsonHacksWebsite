@@ -1731,6 +1731,7 @@ input, select, textarea {
 				letter-spacing: 0.075em;
 				padding: 0.5em 0.8em 0.5em 0.8em;
 				outline: 0;
+				animation: all 0.5 ease;
 				-webkit-animation: all 0.5 ease;
 			}
 
