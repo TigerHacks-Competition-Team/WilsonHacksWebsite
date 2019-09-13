@@ -20,7 +20,19 @@
 	function onload(){
 		var elementClass = "current_page_item"
 		document.getElementById("home").className = elementClass
+		getData()
 	}
+
+	function getData(){
+		fetch('http://3.19.293.12/data')
+			.then(function(response) {
+			return response.json();
+			})
+			.then(function(myJson) {
+				alert(JSON.stringify(myJson));
+			});
+	}
+	
 	
 </script>
 
@@ -179,6 +191,10 @@
 										<tr>
 											<td>9:30</td>
 											<td>Breakfast</td>
+										</tr>
+										<tr>
+											<td>12:00</td>
+											<td>Lunch</td>
 										</tr>
 									</table>
 								</section>
