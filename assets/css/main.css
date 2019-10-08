@@ -42,9 +42,7 @@ body {
 	line-height: 1;
 }
 
-#aboutUs {
-	background-image: url("/images/bg02.PNG");
-}
+
 
 ol, ul {
 	list-style: none;
@@ -1936,7 +1934,7 @@ input, select, textarea {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
-			/*background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");*/
+			background-image: url("images/bg02.png");
 			background-repeat: no-repeat, no-repeat, repeat;
 			background-size: 100%, 100%;
 			background-position: center;
