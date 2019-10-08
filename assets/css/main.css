@@ -42,6 +42,10 @@ body {
 	line-height: 1;
 }
 
+#aboutUs {
+	background-image: url("/images/bg02.PNG");
+}
+
 ol, ul {
 	list-style: none;
 }
