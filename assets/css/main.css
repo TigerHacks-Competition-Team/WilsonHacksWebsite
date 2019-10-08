@@ -1932,11 +1932,10 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			position: relative;
-			text-shadow: 1px 1px 0 #fff;
-			background-color: #fff;
 			background-image: url("images/bg02.png");
-			background-repeat: no-repeat, no-repeat, repeat;
+			background-position: center;
 			background-size: 100%, 100%;
+			background-repeat: no-repeat;
 			background-position: center;
 		}
 
