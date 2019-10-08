@@ -20,11 +20,11 @@
 	function onload(){
 		var elementClass = "current_page_item"
 		document.getElementById("home").className = elementClass
-		getData()
+		//getData()
 	}
 
 	function getData(){
-		fetch('http://3.19.239.12/data')
+		fetch('http://192.168.87.168/data')
 			.then(function(response) {
 			return response.json();
 			})
@@ -91,25 +91,11 @@
 										<h2>About Us</h2>
 									</header>
 								</div>
-								<div class="col-4 col-12-medium">
-									<section>
-										<img class="image featured" src="images/pic01.png" alt="" />
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section>
-										<img class="image featured" src="images/pic02.png" alt="" />
-
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section>
-										<img class="image featured" src="images/pic03.png" alt="" />
-
-									</section>
-								</div>
-								<div class="col-12">
-									<p>Images from the 2019 spring Wackathon.</p>
+								
+								<div class="col-12"> 
+									<p>Wilson Hacks is a 12-hour Hackathon for any middle or high school hackers! 
+							 		   At the hackathon, you will work with other students to learn how to code and work on other projects. 
+									   After 12 hours of hacking, you will showcase their ideas to a panel of judges and compete for prizes. We hope to see you there!</p>
 								</div>
 							</div>
 						</section>
