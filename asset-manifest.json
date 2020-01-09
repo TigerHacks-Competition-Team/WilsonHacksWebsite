@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3597d207.chunk.css",
-    "main.js": "/static/js/main.ed7ceef7.chunk.js",
-    "main.js.map": "/static/js/main.ed7ceef7.chunk.js.map",
+    "main.css": "/static/css/main.fd6396b1.chunk.css",
+    "main.js": "/static/js/main.71efa201.chunk.js",
+    "main.js.map": "/static/js/main.71efa201.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.193bb2f5.js",
     "runtime-main.js.map": "/static/js/runtime-main.193bb2f5.js.map",
     "static/js/2.a228df99.chunk.js": "/static/js/2.a228df99.chunk.js",
     "static/js/2.a228df99.chunk.js.map": "/static/js/2.a228df99.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4188a23cc7b2810e2aa81c8939b54397.js": "/precache-manifest.4188a23cc7b2810e2aa81c8939b54397.js",
+    "precache-manifest.6a909089720432d4e1ad012d4986e257.js": "/precache-manifest.6a909089720432d4e1ad012d4986e257.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3597d207.chunk.css.map": "/static/css/main.3597d207.chunk.css.map",
+    "static/css/main.fd6396b1.chunk.css.map": "/static/css/main.fd6396b1.chunk.css.map",
     "static/media/SciMaTech_logo.png": "/static/media/SciMaTech_logo.cbf6094c.png",
     "static/media/WilsonHacks.png": "/static/media/WilsonHacks.2f1b8855.png",
     "static/media/App.css": "/static/media/fa-solid-900.ef3df984.eot",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.193bb2f5.js",
     "static/js/2.a228df99.chunk.js",
-    "static/css/main.3597d207.chunk.css",
-    "static/js/main.ed7ceef7.chunk.js"
+    "static/css/main.fd6396b1.chunk.css",
+    "static/js/main.71efa201.chunk.js"
   ]
 }
