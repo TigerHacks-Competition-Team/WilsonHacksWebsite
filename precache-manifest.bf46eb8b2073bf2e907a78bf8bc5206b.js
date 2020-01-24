@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "601bafdbbab779f3633a0a8a6dad58fd",
+    "revision": "7a1597f290532839cf9ead9be03d31ef",
     "url": "/index.html"
   },
   {
-    "revision": "8c04173de75e898eaf86",
-    "url": "/static/css/main.b373bee6.chunk.css"
+    "revision": "c64c1c6a2fcd0e452503",
+    "url": "/static/css/main.fd6396b1.chunk.css"
   },
   {
     "revision": "9b1e16d2a59798022da1",
     "url": "/static/js/2.a228df99.chunk.js"
   },
   {
-    "revision": "8c04173de75e898eaf86",
-    "url": "/static/js/main.3456f9d4.chunk.js"
+    "revision": "c64c1c6a2fcd0e452503",
+    "url": "/static/js/main.ea2d4a84.chunk.js"
   },
   {
     "revision": "1aaaf18d9fba2ff09cdc",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cbf6094c7143134c07e38a2848fa8634",
     "url": "/static/media/SciMaTech_logo.cbf6094c.png"
+  },
+  {
+    "revision": "2f1b8855eb72c65486c849433a699719",
+    "url": "/static/media/WilsonHacks.2f1b8855.png"
   },
   {
     "revision": "6edd7b10aec7ebac87573850ee95022a",
@@ -92,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-solid-900.ef3df984.eot"
   },
   {
+    "revision": "42a0707fb8e0c9d70419b8ae9f32bc15",
+    "url": "/static/media/fb.42a0707f.jpg"
+  },
+  {
     "revision": "868d5d7356b75693c5975172de9bf9bc",
     "url": "/static/media/instagram_logo.868d5d73.png"
   },
@@ -100,7 +108,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.25bf045c.svg"
   },
   {
-    "revision": "242f735d3b7bc750a5694c5165a0acc1",
-    "url": "/static/media/ttl01.242f735d.png"
+    "revision": "bfce2a374832461b2c6f3047f2538d1c",
+    "url": "/static/media/ttl01.bfce2a37.png"
   }
 ]);
