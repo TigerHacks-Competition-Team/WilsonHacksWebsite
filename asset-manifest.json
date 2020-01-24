@@ -1,24 +1,14 @@
 {
   "files": {
-<<<<<<< Updated upstream
-    "main.css": "/static/css/main.a0363682.chunk.css",
-    "main.js": "/static/js/main.98642f4c.chunk.js",
-    "main.js.map": "/static/js/main.98642f4c.chunk.js.map",
-=======
     "main.css": "/static/css/main.fd6396b1.chunk.css",
     "main.js": "/static/js/main.ea2d4a84.chunk.js",
     "main.js.map": "/static/js/main.ea2d4a84.chunk.js.map",
->>>>>>> Stashed changes
     "runtime-main.js": "/static/js/runtime-main.193bb2f5.js",
     "runtime-main.js.map": "/static/js/runtime-main.193bb2f5.js.map",
     "static/js/2.a228df99.chunk.js": "/static/js/2.a228df99.chunk.js",
     "static/js/2.a228df99.chunk.js.map": "/static/js/2.a228df99.chunk.js.map",
     "index.html": "/index.html",
-<<<<<<< Updated upstream
-    "precache-manifest.5a9cc681e5a68d20887663bdbff12ab1.js": "/precache-manifest.5a9cc681e5a68d20887663bdbff12ab1.js",
-=======
     "precache-manifest.bf46eb8b2073bf2e907a78bf8bc5206b.js": "/precache-manifest.bf46eb8b2073bf2e907a78bf8bc5206b.js",
->>>>>>> Stashed changes
     "service-worker.js": "/service-worker.js",
     "static/css/main.a0363682.chunk.css.map": "/static/css/main.a0363682.chunk.css.map",
     "static/media/SciMaTech_logo.png": "/static/media/SciMaTech_logo.cbf6094c.png",
@@ -32,12 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.193bb2f5.js",
     "static/js/2.a228df99.chunk.js",
-<<<<<<< Updated upstream
-    "static/css/main.a0363682.chunk.css",
-    "static/js/main.98642f4c.chunk.js"
-=======
     "static/css/main.fd6396b1.chunk.css",
     "static/js/main.ea2d4a84.chunk.js"
->>>>>>> Stashed changes
   ]
 }
