@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b61ad09c5079641ef1173b326fdda64",
+    "revision": "e3a19ef7aed924ca853e44c8fb3dad38",
     "url": "/index.html"
   },
   {
-    "revision": "7401eef8ca128b5d8850",
-    "url": "/static/css/main.82352ca0.chunk.css"
+    "revision": "f64f4c6c4995fccf11a5",
+    "url": "/static/css/main.25adb125.chunk.css"
   },
   {
-    "revision": "9b1e16d2a59798022da1",
-    "url": "/static/js/2.a228df99.chunk.js"
+    "revision": "84a203efb00dfd8b211c",
+    "url": "/static/js/2.8fff4711.chunk.js"
   },
   {
-    "revision": "7401eef8ca128b5d8850",
-    "url": "/static/js/main.8708bfe2.chunk.js"
+    "revision": "f64f4c6c4995fccf11a5",
+    "url": "/static/js/main.b36bf62e.chunk.js"
   },
   {
     "revision": "1aaaf18d9fba2ff09cdc",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SciMaTech_logo.cbf6094c.png"
   },
   {
-    "revision": "2f1b8855eb72c65486c849433a699719",
-    "url": "/static/media/WilsonHacks.2f1b8855.png"
+    "revision": "f2fa2d58d3926ec29c2e56ecaf35b52a",
+    "url": "/static/media/WilsonHacks.f2fa2d58.png"
   },
   {
     "revision": "6edd7b10aec7ebac87573850ee95022a",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-brands-400.03783c51.eot"
   },
   {
-    "revision": "073c2f3ce60eaf69cc2767ef3d989078",
-    "url": "/static/media/fa-brands-400.073c2f3c.svg"
-  },
-  {
     "revision": "7559b3774a0625e8ca6c0160f8f6cfd8",
     "url": "/static/media/fa-brands-400.7559b377.woff2"
+  },
+  {
+    "revision": "d1f95353a09c7afd544e9ae2bc8f5af7",
+    "url": "/static/media/fa-brands-400.d1f95353.svg"
   },
   {
     "revision": "ed2b8bf117160466ba6220a8f1da54a4",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-regular-400.59215032.ttf"
   },
   {
-    "revision": "8fdea4e89ac405d9f8db327adb331d8d",
-    "url": "/static/media/fa-regular-400.8fdea4e8.svg"
+    "revision": "6c6a5fad8ed5136b92d0ead30b2328d3",
+    "url": "/static/media/fa-regular-400.6c6a5fad.svg"
   },
   {
     "revision": "e07d9e40b26048d9abe2ef966cd6e263",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-regular-400.fc9c63c8.eot"
   },
   {
+    "revision": "0ffddc07ec1115efbe1833a0023a711e",
+    "url": "/static/media/fa-solid-900.0ffddc07.svg"
+  },
+  {
     "revision": "4bced7c4c0d61d4f988629bb8ae80b8b",
     "url": "/static/media/fa-solid-900.4bced7c4.woff"
   },
@@ -84,20 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-solid-900.acf50f59.ttf"
   },
   {
-    "revision": "b557f56e367e59344ca95f9d1fb44352",
-    "url": "/static/media/fa-solid-900.b557f56e.svg"
-  },
-  {
     "revision": "b5cf8ae26748570d8fb95a47f46b69e1",
     "url": "/static/media/fa-solid-900.b5cf8ae2.woff2"
   },
   {
     "revision": "ef3df98419d143d9617fe163bf4edc0b",
     "url": "/static/media/fa-solid-900.ef3df984.eot"
-  },
-  {
-    "revision": "42a0707fb8e0c9d70419b8ae9f32bc15",
-    "url": "/static/media/fb.42a0707f.jpg"
   },
   {
     "revision": "868d5d7356b75693c5975172de9bf9bc",
