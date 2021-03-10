@@ -1,0 +1,44 @@
+{
+  "winners": [
+    {
+      "title": "Fanua Real Estate",
+      "description": "Fanua Real Estate provides a platform for local businesses, investors, and regular people to connect and co-invest in properties; ultimately helping to expand these businesses.",
+      "image": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/388/494/datas/original.png",
+      "link": "https://devpost.com/software/fanua-real-estate",
+      "category": "Best Overall",
+      "video": "https://youtube.com/embed/Hn1a5X4OV6A"
+    },
+    {
+      "title": "Calluna",
+      "description": "Returning To Normal, Step By Step.",
+      "image": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/383/172/datas/gallery.jpg",
+      "link": "https://devpost.com/software/calluna-thv6q4",
+      "category": "Best Individual",
+      "video": "https://youtube.com/embed/KGA5SBEz1jI"
+    },
+    {
+      "title": "MaskOn",
+      "description": "Our app removes the need to have employees monitor who comes into a store by automatically detecting when a customer is not wearing a mask.",
+      "image": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/388/498/datas/original.png",
+      "link": "https://devpost.com/software/maskon-xa0kdr",
+      "category": "Most Creative",
+      "video": "https://youtube.com/embed/Hn1a5X4OV6A"
+    },
+    {
+      "title": "NutBase Testing",
+      "description": "A cloud based inventory management system with a easy to use UI and automatic syncing.",
+      "image": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/388/367/datas/gallery.jpg",
+      "link": "https://devpost.com/software/nutbase",
+      "category": "Business Sponsor",
+      "video": "https://youtube.com/embed/DuaeZmUL5KQ"
+    },
+    {
+      "title": "Local Food",
+      "description": "a website to help promote support for local businesses",
+      "image": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/388/367/datas/gallery.jpg",
+      "video": "https://youtube.com/embed/XZVCpV53JzI",
+      "link": "https://devpost.com/software/local-focal",
+      "category": "Judges Choice"
+    }
+  ]
+}
