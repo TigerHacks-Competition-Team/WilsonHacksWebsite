@@ -10,8 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-windows": "react-scripts build && xcopy build docs && rmdir /S build",
-    "build-macos": "react-scripts build && cp -R build docs && rmdir -R build",
+    "build-windows": "rmdir /S docs && react-scripts build && xcopy build docs && rmdir /S build",
+    "build-macos": "rmdir -R docs && react-scripts build && cp -R build docs && rmdir -R build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
