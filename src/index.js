@@ -16,7 +16,7 @@ ReactDOM.render(
   <HashRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
     <Router>
       <Switch>
-        <Route path="/competition">
+        <Route path="/competition" component={Competition}>
           <Competition />
         </Route>
         <Route
@@ -25,9 +25,7 @@ ReactDOM.render(
             window.location.href = "/site/cshs.html";
           }}
         />
-        <Route path="/">
-          <App />
-        </Route>
+        <Route component={App} />
       </Switch>
     </Router>
   </HashRouter>,
