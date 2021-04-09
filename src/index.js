@@ -13,7 +13,7 @@ import {
 } from "react-router-dom";
 
 ReactDOM.render(
-  <HashRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <Router>
       <Switch>
         <Route path="/competition" component={Competition}>
