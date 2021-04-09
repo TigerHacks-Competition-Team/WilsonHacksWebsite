@@ -4,25 +4,33 @@ import "./index.css";
 import App from "./App";
 import Competition from "./Competition";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  HashRouter,
+} from "react-router-dom";
 
 ReactDOM.render(
-  <Router>
-    <Switch>
-      <Route path="/competition">
-        <Competition />
-      </Route>
-      <Route
-        path="/cshs"
-        render={() => {
-          window.location.href = "/site/cshs.html";
-        }}
-      />
-      <Route path="/">
-        <App />
-      </Route>
-    </Switch>
-  </Router>,
+  <HashRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
+    <Router>
+      <Switch>
+        <Route path="/competition">
+          <Competition />
+        </Route>
+        <Route
+          path="/cshs"
+          render={() => {
+            window.location.href = "/site/cshs.html";
+          }}
+        />
+        <Route path="/">
+          <App />
+        </Route>
+      </Switch>
+    </Router>
+  </HashRouter>,
 
   document.getElementById("root")
 );
