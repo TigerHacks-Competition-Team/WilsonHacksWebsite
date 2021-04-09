@@ -9,9 +9,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 ReactDOM.render(
   <Router>
     <Switch>
-      <Route path="/">
-        <App />
-      </Route>
       <Route path="/competition">
         <Competition />
       </Route>
@@ -21,6 +18,9 @@ ReactDOM.render(
           window.location.href = "/site/cshs.html";
         }}
       />
+      <Route path="/">
+        <App />
+      </Route>
     </Switch>
   </Router>,
 
