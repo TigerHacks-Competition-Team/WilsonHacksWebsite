@@ -13,10 +13,10 @@ import {
 } from "react-router-dom";
 
 ReactDOM.render(
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename={"/"}>
     <Router>
       <Switch>
-        <Route path="/competition" component={Competition} />
+        <Route exact path="/competition" component={Competition} />
         <Route
           path="/cshs"
           render={() => {
