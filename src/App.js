@@ -53,7 +53,7 @@ export default class App extends Component {
       "Sun Feb 07 2021 09:59:90 GMT-0500 (Eastern Standard Time)"
     ); //Wed Feb 07 2021 10:00:00 GMT-0500 (Eastern Standard Time)
     let openingTime = new Date(
-      "Sat Feb 06 2021 11:00:90 GMT-0500 (Eastern Standard Time)"
+      "Sat Dec 11 2021 11:00:90 GMT-0500 (Eastern Standard Time)"
     );
     console.log("render data: " + JSON.stringify(this.state.data));
     return (
@@ -92,18 +92,18 @@ export default class App extends Component {
                     )}
                     <nav id="nav">
                       <ul>
-                        {time.getTime() < openingTime.getTime() && (
+                      {time.getTime() < openingTime.getTime() && (
                           <li class="registration-link">
                             <a
-                              href="https://wilsonhacks.devpost.com"
+                              href="https://wilsonhacks-hackathon-2021.devpost.com/"
                               target="__blank"
                             >
                               Register
                             </a>
                           </li>
-                        )}
+                      )}
                         <li>
-                          <a href="#w2021">Winter 2021 Winners</a>
+                          <a href="#w2021">February 2021 Winners</a>
                         </li>
                         {/*<li>
                           <a href="#details">Details</a>
@@ -133,24 +133,31 @@ export default class App extends Component {
                       padding: 40 + "px",
                     }}
                   >
-                    Registration Open!
+                    Registration Now Open for WilsonHacks 4.0 (December 11-12, 2021)!
                   </h2>
                 )}
                 <img
                   class="banner-logo"
                   src={require("./assets/images/WilsonHacks.png")}
-                  width={0.6 * this.state.w}
-                  height={0.6 * this.state.w}
+                  width={0.3 * this.state.w}
+                  height={0.3 * this.state.w}
                 />
-                {/*<h3
+                <h3
                   style={{
                     fontSize: 50 + "px",
                     color: "#34bbc9",
                     lineHeight: 60 + "px",
                   }}
                 >
-                  February 6-7, 2021
-                </h3>*/}
+                  December 11-12, 2021
+                </h3>
+                <a
+                    id="register-a"
+                    href="https://wilsonhacks-hackathon-2021.devpost.com/"
+                    target="__blank"
+                  >
+                    REGISTER NOW
+                  </a>
               </div>
             </div>
             <div class="wrapper style3" id="w2021">
@@ -160,7 +167,7 @@ export default class App extends Component {
                     <div class="row">
                       <div class="col-12">
                         <header class="first major">
-                          <h2>Winter 2021 Winners</h2>
+                          <h2>February 2021 Winners</h2>
                         </header>
                       </div>
                       <div class="col-6 col-12-medium">
