@@ -133,15 +133,22 @@ export default class App extends Component {
                       padding: 40 + "px",
                     }}
                   >
-                    Registration Now Open for WilsonHacks 4.0 (December 11-12, 2021)!
+                    <a
+                              href="https://wilsonhacks-hackathon-2021.devpost.com/"
+                              target="__blank"
+                            >Registration Now Open for WilsonHacks 4.0 (December 11-12, 2021)!</a>
                   </h2>
                 )}
+                <a
+                              href="https://wilsonhacks-hackathon-2021.devpost.com/"
+                              target="__blank"
+                            >
                 <img
                   class="banner-logo"
                   src={require("./assets/images/WilsonHacks.png")}
                   width={0.3 * this.state.w}
                   height={0.3 * this.state.w}
-                />
+                /></a>
                 <h3
                   style={{
                     fontSize: 50 + "px",
@@ -158,6 +165,295 @@ export default class App extends Component {
                   >
                     REGISTER NOW
                   </a>
+              </div>
+            </div>
+            <div id="main-wrapper">
+              <div id="container">
+                <div class="wrapper style3">
+                  <div class="inner">
+                    <div class="container box feature1">
+                      <div id="schedule">
+                        <div class="row">
+                          <div class="col-12">
+                            <header class="first major">
+                              <h2>Schedule</h2>
+                            </header>
+                          </div>
+                          <div class="col-6 col-12-medium">
+                            <section>
+                              <header class="second major">
+                                <h2>December 11</h2>
+                              </header>
+                              <table>
+                                <tr>
+                                  <th class="S-header">
+                                    <h3>Time</h3>
+                                  </th>
+                                  <th class="S-header">
+                                    <h3>Event</h3>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>10:00 am 12/11</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Opening ceremony</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>11 am - 11:30 am 12/11</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>
+                                      Hacking Begins (May the odds be ever in your favor)
+                                      </b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>11:15 am 12/11</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Team Building Session</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>12:00 am 12/11</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Deadline to submit check-in form and start Devpost submission with member names </b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>12:15 am 12/11</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>WORKSHOP: Introduction to Python: CSHS</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>1:00 pm 12/11</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>
+                                      Gaming Break: Among Us
+                                      </b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>2:00 pm 12/11</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>
+                                      WORKSHOP: Stratton Penberthy
+                                      </b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>3:00 pm 12/11</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>
+                                      Gaming Break: Pictionary
+                                      </b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>4:00 pm 12/11</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>WORKSHOP: Genetic Programming & Inverse Generative Social Science</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                              </table>
+                            </section>
+                          </div>
+                          <div class="col-6 col-12-medium">
+                            <section>
+                              <header class="second major">
+                                <h2>December 12</h2>
+                              </header>
+                              <table>
+                                <tr>
+                                  <th class="S-header">
+                                    <h3>Time</h3>
+                                  </th>
+                                  <th class="S-header">
+                                    <h3>Event</h3>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>11:00 am 12/12</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>WORKSHOP: Stratton Penberthy</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>12:00 pm 12/12</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>WORKSHOP: TBD</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>1:00 pm 12/12</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Gaming Break:  Gartic Phone</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>11:00 am - 1:00 pm 2/7</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Office Hours 4 - Jason Johnson</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>1:00 pm - 3:00 pm 2/7</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Gaming Break:  Gartic Phone</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>2:00 pm - 4:00 pm 12/12</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Grind your Project</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>4:00 pm 12/12</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Soft Deadline To Submit Project To Devpost</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>5:00 pm 12/12</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Hard Deadline To Submit Project To Devpost</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>6:00 pm - 8:00 pm 12/12</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Judging Process</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h3>
+                                      <b>8:00 pm 12/12</b>
+                                    </h3>
+                                  </td>
+                                  <td>
+                                    <h3>
+                                      <b>Closing Ceremony</b>
+                                    </h3>
+                                  </td>
+                                </tr>
+                              </table>
+                            </section>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="wrapper style3" id="w2021">
@@ -439,340 +735,8 @@ export default class App extends Component {
                 </div>
               </div>
             </div>
-
-            <div id="main-wrapper">
-              <div id="container">
-                <div class="wrapper style3">
-                  <div class="inner">
-                    <div class="container box feature1">
-                      <div id="schedule">
-                        <div class="row">
-                          <div class="col-12">
-                            <header class="first major">
-                              <h2>Schedule</h2>
-                            </header>
-                          </div>
-                          <div class="col-6 col-12-medium">
-                            <section>
-                              <header class="second major">
-                                <h2>Workshop/General</h2>
-                              </header>
-                              <table>
-                                <tr>
-                                  <th class="S-header">
-                                    <h3>Time</h3>
-                                  </th>
-                                  <th class="S-header">
-                                    <h3>Event</h3>
-                                  </th>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>10:00 am - 10:30 am 2/6</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Opening ceremony & submission opens</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>10:30 am - 11:30 am 2/6</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>
-                                        Participant mingling and team creation
-                                      </b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>11:30 am - 12:15 pm 2/6</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Workshop 1 Cloud Computing</b>
-                                    </h3>
-                                    <a
-                                      href="https://teams.microsoft.com/l/meetup-join/19:meeting_ZDEwMTU5OGUtOTI4OC00NjNmLTlkODgtMTcxYWQzZDhiYzg3@thread.v2/0?context=%7B%22Tid%22:%2272f988bf-86f1-41af-91ab-2d7cd011db47%22,%22Oid%22:%2261b9b6e4-bc70-4076-981f-abba9397652c%22%7D"
-                                      class="teams-a"
-                                      target="__blank"
-                                    >
-                                      Meeting Link
-                                    </a>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>2:00 pm - 2:45 pm 2/6</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Workshop 2 Data Structures</b>
-                                    </h3>
-                                    <a
-                                      href="https://bluejeans.com/616479298"
-                                      class="teams-a"
-                                      target="__blank"
-                                    >
-                                      Meeting Link
-                                    </a>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>4:30 pm - 5:15 pm 2/6</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Workshop 3 Networks/Iot</b>
-                                    </h3>
-                                    <a
-                                      href="https://teams.microsoft.com/l/meetup-join/19:meeting_MjMyMWZjYjItMTdmMS00MzI4LWFlMjUtMjA3MjcxM2EzMjY2@thread.v2/0?context=%7B%22Tid%22:%2272f988bf-86f1-41af-91ab-2d7cd011db47%22,%22Oid%22:%2261b9b6e4-bc70-4076-981f-abba9397652c%22%7D"
-                                      class="teams-a"
-                                      target="__blank"
-                                    >
-                                      Meeting Link
-                                    </a>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>6:00 pm - 6:45 pm 2/6</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>
-                                        Workshop 4 Microsoft TEAL and Python
-                                      </b>
-                                    </h3>
-                                    <a
-                                      href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2Q1MGU1MGQtMjBmYy00M2E4LWJjYjItM2VlZDYyMTQ0YWE4%40thread.v2/0?context=%7b%22Tid%22%3a%2299f9f8e5-2e36-4b8e-8bdc-d1ba51121a17%22%2c%22Oid%22%3a%2247eb0134-aa44-43f3-b6d3-78f44a35fc8f%22%7d"
-                                      class="teams-a"
-                                      target="__blank"
-                                    >
-                                      Meeting Link
-                                    </a>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>10:00 am - 10:45 pm 2/7</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>
-                                        Workshop 5 TPM for Commercial Software
-                                        Engineering
-                                      </b>
-                                    </h3>
-                                    <a
-                                      href="https://teams.microsoft.com/l/meetup-join/19:meeting_NDM4ZTU5MGYtNWEzNS00NjE2LTk4NTMtYWM2ZWFjZDAyNTA3@thread.v2/0?context=%7B%22Tid%22:%2272f988bf-86f1-41af-91ab-2d7cd011db47%22,%22Oid%22:%2261b9b6e4-bc70-4076-981f-abba9397652c%22%7D"
-                                      class="teams-a"
-                                      target="__blank"
-                                    >
-                                      Meeting Link
-                                    </a>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>11:30 am - 12:15 pm 2/7</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>
-                                        Workshop 6 Making Money in the Federal
-                                        Information Technology Market
-                                      </b>
-                                    </h3>
-                                    <a
-                                      href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDJiODUwNTEtNjQzNi00NDMzLTllOWQtYjgyM2E3YzNlOTI2%40thread.v2/0?context=%7b%22Tid%22%3a%22c8ebb8f5-6ec3-41bd-99b6-e4aafe702967%22%2c%22Oid%22%3a%22260b1ff7-8b32-4a72-86e3-ef22c5e147ee%22%7d"
-                                      class="teams-a"
-                                      target="__blank"
-                                    >
-                                      Meeting Link
-                                    </a>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>10:00 pm 2/7</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Submission Closes</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>10:00 pm - 10:15 pm 2/7</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Closing Statements</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>Anytime</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>EchoAR</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                              </table>
-                            </section>
-                          </div>
-                          <div class="col-6 col-12-medium">
-                            <section>
-                              <header class="second major">
-                                <h2>Mentor Office Hours</h2>
-                              </header>
-                              <table>
-                                <tr>
-                                  <th class="S-header">
-                                    <h3>Time</h3>
-                                  </th>
-                                  <th class="S-header">
-                                    <h3>Event</h3>
-                                  </th>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>12:00 pm - 2:00 pm 2/6</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Office Hours 1 - Corey Lee</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>2:00 pm - 4:00 pm 2/6</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Office Hours 2 - Richard Stephenson</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>4:00 pm - 6:00 pm 2/6</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Office Hours 3 - Jay Tappen</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>11:00 am - 1:00 pm 2/7</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Office Hours 4 - Jason Johnson</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>1:00 pm - 3:00 pm 2/7</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Office Hours 5 - Josh Krodel</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>3:00 pm - 5:00 pm 2/7</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Office Hours 6 - Iasia Brown</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>5:00 pm - 7:00 pm 2/7</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Office Hours 7 - Mark Stevens</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <h3>
-                                      <b>7:00 pm - 9:00 pm 2/7</b>
-                                    </h3>
-                                  </td>
-                                  <td>
-                                    <h3>
-                                      <b>Office Hours 8</b>
-                                    </h3>
-                                  </td>
-                                </tr>
-                              </table>
-                            </section>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
+                                    */}
+            
 
             <div class="wrapper style2">
               <div class="inner">
